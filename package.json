@@ -1,0 +1,19 @@
+{
+  "name": "emr-api",
+  "version": "1.0.0",
+  "description": "Electronical medical reports API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Simplyfi-it-llc",
+  "license": "",
+  "dependencies": {
+    "@graphile-contrib/pg-simplify-inflector": "^6.1.0",
+    "db-migrate": "^0.11.13",
+    "db-migrate-pg": "^1.2.2",
+    "postgraphile": "^4.12.12",
+    "postgraphile-plugin-connection-filter": "^2.3.0"
+  }
+}

@@ -1,0 +1,1 @@
+DROP TYPE api.jwt;

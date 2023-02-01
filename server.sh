@@ -1,0 +1,12 @@
+npx postgraphile \
+  -c postgres://emr:emr123456@localhost/emr \
+  --schema api \
+  --append-plugins @graphile-contrib/pg-simplify-inflector,postgraphile-plugin-connection-filter \
+  --enhance-graphiql \
+  --allow-explain \
+  --watch \
+  --owner-connection postgres://postgres:$POSTGRES_PASSWORD@localhost/emr \
+  --default-role emr_anonymous \
+  --jwt-token-identifier api.jwt \
+  --jwt-secret secret_for_jwts \
+  --cors

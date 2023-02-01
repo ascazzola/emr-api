@@ -1,0 +1,2 @@
+DROP INDEX doctor_account_email_idx
+DROP TABLE api_private.doctor_account;

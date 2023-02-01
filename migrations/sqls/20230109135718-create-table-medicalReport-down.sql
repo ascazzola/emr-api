@@ -1,0 +1,1 @@
+DROP TABLE api.medical_report;
